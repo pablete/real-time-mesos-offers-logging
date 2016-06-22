@@ -6,7 +6,7 @@ MAINTAINER mcastro@stratio.com
 WORKDIR /go/src/app
 
 # Install dependencies
-RUN git clone https://github.com/thehivecorporation/real-time-mesos-offers.git .
+RUN git clone https://github.com/Stratio/real-time-mesos-offers-logging.git .
 RUN go get ./...
 RUN go build -o app
 RUN npm install
