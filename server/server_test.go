@@ -6,7 +6,7 @@ import (
 
 	"golang.org/x/net/websocket"
 	"fmt"
-	"github.com/mesos/mesos-go/mesosproto"
+	"github.com/mesos/mesos-go/api/v0/mesosproto"
 )
 
 func TestNew(t *testing.T) {

@@ -10,7 +10,7 @@ import (
 	log "github.com/Sirupsen/logrus"
 	"github.com/gorilla/mux"
 	gorWs "github.com/gorilla/websocket"
-	"github.com/mesos/mesos-go/mesosproto"
+	"github.com/mesos/mesos-go/api/v0/mesosproto"
 )
 
 var wsUpgrader = gorWs.Upgrader{

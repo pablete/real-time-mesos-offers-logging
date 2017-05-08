@@ -3,8 +3,8 @@ package example_scheduler
 import (
 	log "github.com/Sirupsen/logrus"
 	"github.com/golang/protobuf/proto"
-	"github.com/mesos/mesos-go/mesosproto"
-	"github.com/mesos/mesos-go/scheduler"
+	"github.com/mesos/mesos-go/api/v0/mesosproto"
+	"github.com/mesos/mesos-go/api/v0/scheduler"
 )
 
 type LogScheduler struct {

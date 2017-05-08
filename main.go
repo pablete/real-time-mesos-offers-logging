@@ -4,17 +4,17 @@ import (
 	"flag"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/mesos/mesos-go/mesosproto"
-	"github.com/mesos/mesos-go/mesosutil"
-	"github.com/mesos/mesos-go/scheduler"
-	"github.com/thehivecorporation/real-time-mesos-offers/example_scheduler"
+	"github.com/mesos/mesos-go/api/v0/mesosproto"
+	"github.com/mesos/mesos-go/api/v0/mesosutil"
+	"github.com/mesos/mesos-go/api/v0/scheduler"
+	"github.com/pablete/real-time-mesos-offers-logging/example_scheduler"
 
 	"os"
 
 	"fmt"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/thehivecorporation/real-time-mesos-offers/server"
+	"github.com/pablete/real-time-mesos-offers-logging/server"
 	"net"
 )
 
